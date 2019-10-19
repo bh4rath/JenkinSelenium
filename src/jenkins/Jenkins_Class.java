@@ -33,7 +33,7 @@ public class Jenkins_Class {
 		WebElement inputsLink = driver.findElement(By.linkText("Dropdown"));
 		inputsLink.click();
 
-		String actualTitle = "The Internet";
+		String actualTitle = "The Internet Fails";
 
 		System.out.println(driver.getTitle());
 
