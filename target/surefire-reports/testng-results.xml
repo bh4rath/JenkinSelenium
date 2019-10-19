@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24731" started-at="2019-10-19T11:51:23Z" finished-at="2019-10-19T11:51:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24731" started-at="2019-10-19T11:51:23Z" finished-at="2019-10-19T11:51:48Z">
+      <class name="jenkins.Jenkins_Class">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:jenkins.Jenkins_Class@aa5eb0]" name="setUp" is-config="true" duration-ms="13704" started-at="2019-10-19T11:51:23Z" finished-at="2019-10-19T11:51:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openURL()[pri:0, instance:jenkins.Jenkins_Class@aa5eb0]" name="openURL" duration-ms="10149" started-at="2019-10-19T11:51:37Z" finished-at="2019-10-19T11:51:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:jenkins.Jenkins_Class@aa5eb0]" name="quit" is-config="true" duration-ms="777" started-at="2019-10-19T11:51:47Z" finished-at="2019-10-19T11:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- jenkins.Jenkins_Class -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
