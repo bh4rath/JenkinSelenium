@@ -20,7 +20,7 @@ public class Jenkins_Class {
 
 	@BeforeMethod
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver", "E:\\Chrome driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".\\Properties\\chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 
@@ -33,7 +33,7 @@ public class Jenkins_Class {
 		WebElement inputsLink = driver.findElement(By.linkText("Dropdown"));
 		inputsLink.click();
 
-		String actualTitle = "The Internet Fails";
+		String actualTitle = "The Internet";
 
 		System.out.println(driver.getTitle());
 
@@ -42,7 +42,7 @@ public class Jenkins_Class {
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		// Now you can do whatever you need to do with it, for example copy somewhere
 		try {
-			FileUtils.copyFile(scrFile, new File("E:\\Angie Selenium Java\\JenkinsTest\\screenshot.png"));
+			FileUtils.copyFile(scrFile, new File(".\\Screenshots\\screenshot.png"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
