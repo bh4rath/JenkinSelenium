@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="13949" started-at="2019-10-23T17:51:25Z" finished-at="2019-10-23T17:51:39Z">
+  <suite name="Suite" duration-ms="57713" started-at="2019-10-24T02:28:31Z" finished-at="2019-10-24T02:29:28Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="13949" started-at="2019-10-23T17:51:25Z" finished-at="2019-10-23T17:51:39Z">
+    <test name="Test" duration-ms="57713" started-at="2019-10-24T02:28:31Z" finished-at="2019-10-24T02:29:28Z">
       <class name="jenkins.Jenkins_Class">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:jenkins.Jenkins_Class@f71333]" name="setUp" is-config="true" duration-ms="4702" started-at="2019-10-23T17:51:25Z" finished-at="2019-10-23T17:51:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:jenkins.Jenkins_Class@1ebec15]" name="setUp" is-config="true" duration-ms="37015" started-at="2019-10-24T02:28:31Z" finished-at="2019-10-24T02:29:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="openURL()[pri:0, instance:jenkins.Jenkins_Class@f71333]" name="openURL" duration-ms="8292" started-at="2019-10-23T17:51:30Z" finished-at="2019-10-23T17:51:38Z">
+        <test-method status="PASS" signature="openURL()[pri:0, instance:jenkins.Jenkins_Class@1ebec15]" name="openURL" duration-ms="19317" started-at="2019-10-24T02:29:08Z" finished-at="2019-10-24T02:29:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:jenkins.Jenkins_Class@f71333]" name="quit" is-config="true" duration-ms="889" started-at="2019-10-23T17:51:38Z" finished-at="2019-10-23T17:51:39Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:jenkins.Jenkins_Class@1ebec15]" name="quit" is-config="true" duration-ms="1313" started-at="2019-10-24T02:29:27Z" finished-at="2019-10-24T02:29:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
